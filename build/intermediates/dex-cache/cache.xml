@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/firebase_database-0.0.14/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e58bf159ecb4c0d38d9416d46bcfd74c267ef478">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_06391ae3314d9de2c998856f83c629582761b024.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/1cc2f8ba6ae60aa8c53051dde0f6b6c806c26fdb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_88a0b9dba78ef39213306feaa3159ed925d46272.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/d3cd5fd3f807f4e45618ffd56576bfb3c94f060f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c1afc13c5d091a503f1430b91eac3470e7bec2c8">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_006bb144b84cb86132791db34fd76dab38f723e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/firebase_storage-0.0.5/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a0c3e5d89d98bec4bb8dc1da42ecc2e29e441fd8">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_1960222df25249cfe0f1a077b5fb2aac5d790126.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/ed5db3c725a4e7a9f3516cca5604f75f6297411c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4961be1437163ab598620a3c907c0f3432936f51">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_b5ec83bd482960445b37e5afe44ba5e5cb22d61a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/4e07c5434c79a5adb2fd16689c20c14497bb2350/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_657cf2f290cfc0f4dcc7b8bad71598cff85d1c0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/37c4bf405dacbb61967565819f79c585e307cace/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_d4ab75ee048c7a1c742208b98c01a9dd1014ae11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/80ebcc21452e7dd3d612f69d459952babe2472ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_edc4bd71191e714bce86c6cb9edc4b1b9fdc4331.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/path_provider-0.2.1+1/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b3c8373493efb762519e447840d55baf57f88147">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_67ebb827e8e917709b9e07349c40ffe406e68894.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/c10d9d11f7cbbaa07c9c05e7916cbb96064baefa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_0ee132612b35855e18b56e30e8d75ad9e985317c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/a45f7d710b73f6af548af07cce2ce658a518cc67/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b77e50b3c31d0fc64148530f7077f79ec114b5b9">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_6ed45b6e5da96186fb89119b8e6a766ef8c3a99a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/image_picker-0.1.1/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1e5c17d69fe90fc274e53930ac7dbdb274af1aa9">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_8ea83fb97fdb6e9c9375c317fd2235a88380f02b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/flutter/bin/cache/artifacts/engine/android-arm-release/flutter.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e4c9f2855a7946c2d595af6653a27af51b67863f">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/release/flutter_308c1649bff5d0b4b9e0d4a0e61b513d2fa7bd89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/89990210cbc227e70b6e96a9d7fcd32bb6a14913/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_e00a815da64408cca56337901a17d2d5f1cc5827.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/11c8b70f592bf936a434ce1541d4c881b3cf5f27/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a7a0aa678c3bbadb67fb41df9e107f7ee9087902">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_8645b0d67531ca86a96c8d410fa1c0f8a4eae205.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/6fea7ffcd00a8399e0d07ab9d78873ffa5fe3456/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_1390a397d04afe5c78e94cfbc5765449b3442552.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.android/build-cache/c01e820145af94a399fd90dea0a11e16389f9f6a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/classes_c16cb63c80dbd606653aa93f695acad76e61515f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/25.4.0/f6a2fc748ae3769633dea050563e1613e93c135e/support-annotations-25.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/support-annotations-25.4.0_ec6ccdfdf5edf330ed5e2f6012a892214b694db7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hekaiyou/flutter/bin/cache/artifacts/engine/android-arm/flutter.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0ed8fa0b5ba65204b264156704b777de2a0ab47b">
+        <dex dex="/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/pre-dexed/debug/flutter_0de5aa39ad41d77e6a837a8aeafccf176f9b530c.jar" />
+    </item>
+
+</items>

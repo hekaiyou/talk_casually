@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "895837916274",
+    "firebase_url": "https://talk-casually-app.firebaseio.com",
+    "project_id": "talk-casually-app",
+    "storage_bucket": "talk-casually-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895837916274:android:95e004e54d285639",
+        "android_client_info": {
+          "package_name": "com.yourcompany.talkcasually"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895837916274-2d6bv061q5o0k03akm644diol4le8gvl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yourcompany.talkcasually",
+            "certificate_hash": "a9afde4c09ed333d9989afcb11fb3f4f8273b788"
+          }
+        },
+        {
+          "client_id": "895837916274-9d9aikvreqjvnvtmscchn42o5i5mip9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7pKCMqKxPdxIdRNb2E8KlwapxVQTNciM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895837916274-9d9aikvreqjvnvtmscchn42o5i5mip9r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "895837916274-uvh1db1jps3k91nugiollh1pl14b6q03.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yourcompany.talk-casually"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
