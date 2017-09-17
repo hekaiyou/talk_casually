@@ -2,11 +2,6 @@
 
 这个应用程序使用Google的Flutter移动框架开发，是一个实时聊天应用程序，为了能专注于APP设计，应用程序的服务端使用Googler的Firebase平台。程序程序的名称为纸聊，意为像传递小纸条一样的简约聊天，登录后所有好友都在，消息无缝同步，还能发送图片。支持Android、iOS等多个平台，多端消息漫游同步。*（由于使用了谷歌的后端服务，该应用程序必须在科学上网时才能正常使用。）*
 
-## 应用截图
-
-For help getting started with Flutter, view our online
-[documentation](http://flutter.io/).
-
 ## 开发过程
 
 - [《Flutter实战一Flutter聊天应用（一）》](http://blog.csdn.net/hekaiyou/article/details/72870759 "教程一")
@@ -33,6 +28,12 @@ For help getting started with Flutter, view our online
 
 ## 下载应用
 
+[百度下载链接](http://pan.baidu.com/s/1bzg3xW "百度下载链接")
+
 [![Google Play下载链接](https://static-goldenfrog.netdna-ssl.com/images/google_play_badge.png "Google Play图标")](https://play.google.com/store/apps/details?id=com.yourcompany.talkcasually)
 
-[百度下载链接](http://pan.baidu.com/s/1bzg3xW "百度下载链接")
+## 加入我们
+
+如果你也想使用Flutter开发一个开源项目，欢迎加入Flutter开荒团，让我们一起开发Flutter的荒漠！*（将你的GitHub账户名发到评论区或私信我，或者加入QQ群271733776联系我们，我会发送邀请邮件给你）*
+
+![GitHub组织图片](http://img.blog.csdn.net/20170916212515378?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaGVrYWl5b3U=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
