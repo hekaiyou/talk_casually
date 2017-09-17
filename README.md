@@ -2,6 +2,16 @@
 
 这个应用程序使用Google的Flutter移动框架开发，是一个实时聊天应用程序，为了能专注于APP设计，应用程序的服务端使用Googler的Firebase平台。程序程序的名称为纸聊，意为像传递小纸条一样的简约聊天，登录后所有好友都在，消息无缝同步，还能发送图片。支持Android、iOS等多个平台，多端消息漫游同步。*（由于使用了谷歌的后端服务，该应用程序必须在科学上网时才能正常使用。）*
 
+## 应用截图
+
+![截图一](http://img.blog.csdn.net/20170917173738967?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaGVrYWl5b3U=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+![截图二](http://img.blog.csdn.net/20170917174439503?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaGVrYWl5b3U=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+![截图三](http://img.blog.csdn.net/20170917174831030?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaGVrYWl5b3U=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+![截图四](http://img.blog.csdn.net/20170917180203315?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaGVrYWl5b3U=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
 ## 开发过程
 
 - [《Flutter实战一Flutter聊天应用（一）》](http://blog.csdn.net/hekaiyou/article/details/72870759 "教程一")
