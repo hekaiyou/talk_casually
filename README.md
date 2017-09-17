@@ -1,8 +1,8 @@
-# talk_casually
+# 纸聊
 
-A new Flutter project.
+这个应用程序使用Google的Flutter移动框架开发，是一个实时聊天应用程序，为了能专注于APP设计，应用程序的服务端使用Googler的Firebase平台。程序程序的名称为纸聊，意为像传递小纸条一样的简约聊天，登录后所有好友都在，消息无缝同步，还能发送图片。支持Android、iOS等多个平台，多端消息漫游同步。*（由于使用了谷歌的后端服务，该应用程序必须在科学上网时才能正常使用。）*
 
-## Getting Started
+## 应用截图
 
 For help getting started with Flutter, view our online
 [documentation](http://flutter.io/).
@@ -31,6 +31,8 @@ For help getting started with Flutter, view our online
 - [《Flutter实战一Flutter聊天应用（二十）》](http://blog.csdn.net/hekaiyou/article/details/77641545 "教程二十")
 - [《Flutter实战一Flutter聊天应用（二十一）》](http://blog.csdn.net/hekaiyou/article/details/78006726 "教程二十一")
 
-## Google Play
+## 下载应用
 
 [![Google Play下载链接](https://static-goldenfrog.netdna-ssl.com/images/google_play_badge.png "Google Play图标")](https://play.google.com/store/apps/details?id=com.yourcompany.talkcasually)
+
+[百度下载链接](http://pan.baidu.com/s/1bzg3xW "百度下载链接")
