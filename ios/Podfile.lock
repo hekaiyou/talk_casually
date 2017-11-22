@@ -50,7 +50,7 @@ PODS:
 
 DEPENDENCIES:
   - firebase_database (from `/Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/firebase_database-0.0.14/ios`)
-  - firebase_storage (from `/Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/firebase_storage-0.0.5/ios`)
+  - firebase_storage (from `/Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/firebase_storage-0.0.6/ios`)
   - Flutter (from `/Users/hekaiyou/flutter/bin/cache/artifacts/engine/ios-release`)
   - image_picker (from `/Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/image_picker-0.1.1/ios`)
   - path_provider (from `/Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/path_provider-0.2.1+1/ios`)
@@ -59,7 +59,7 @@ EXTERNAL SOURCES:
   firebase_database:
     :path: /Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/firebase_database-0.0.14/ios
   firebase_storage:
-    :path: /Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/firebase_storage-0.0.5/ios
+    :path: /Users/hekaiyou/.pub-cache/hosted/pub.dartlang.org/firebase_storage-0.0.6/ios
   Flutter:
     :path: /Users/hekaiyou/flutter/bin/cache/artifacts/engine/ios-release
   image_picker:
