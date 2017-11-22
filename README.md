@@ -41,3 +41,5 @@
 [百度下载链接](http://pan.baidu.com/s/1bzg3xW "百度下载链接")
 
 [![Google Play下载链接](https://static-goldenfrog.netdna-ssl.com/images/google_play_badge.png "Google Play图标")](https://play.google.com/store/apps/details?id=com.yourcompany.talkcasually)
+
+由于iOS开发者账号太贵了，所以没有在iOS平台上架。
