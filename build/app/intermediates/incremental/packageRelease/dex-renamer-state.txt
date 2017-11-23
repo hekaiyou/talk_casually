@@ -1,4 +1,0 @@
-#Fri Sep 15 12:12:03 CST 2017
-base.0=/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/transforms/dex/release/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/hekaiyou/Documents/GitHub/talk_casually/build/app/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex
