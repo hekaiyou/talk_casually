@@ -59,7 +59,7 @@ class GroupChatListBodyItem extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           new Text("  " + name, textScaleFactor: 1.2),
-                          new Text(ReadableTime(timestamp),
+                          new Text(readableTime(timestamp),
                               textAlign: TextAlign.right,
                               style: new TextStyle(
                                   color: Theme.of(context).hintColor)),
@@ -115,7 +115,7 @@ class _GroupChatListBodyState extends State<GroupChatListBody> {
           b.value["timestamp"].compareTo(a.value["timestamp"]),
       defaultChild: new CircularProgressIndicator(),
       itemBuilder: (BuildContext context, DataSnapshot snapshot,
-          Animation<double> animation) {
+          Animation<double> animation,int i) {
         return new SizeTransition(
           sizeFactor: animation,
           child: snapshot.value["activate"] == "false"

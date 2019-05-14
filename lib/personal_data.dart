@@ -11,6 +11,7 @@ import 'image_zoomable.dart';
 
 class PersonalData extends StatefulWidget {
   PersonalData({this.name, this.email, this.portrait, this.phone});
+
   final String name;
   final String email;
   final String portrait;
@@ -22,6 +23,7 @@ class PersonalData extends StatefulWidget {
 
 class _PersonalDataState extends State<PersonalData> {
   _PersonalDataState(this._name, this._email, this._portrait);
+
   String _name;
   String _email;
   String _portrait;
@@ -46,9 +48,10 @@ class _PersonalDataState extends State<PersonalData> {
     }
     _editableState = false;
     showDialog<int>(
-        context: context,
-        barrierDismissible: false,
-        child: new ShowAwait(_saveModify())).then((int onValue) {
+            context: context,
+            barrierDismissible: false,
+            child: new ShowAwait(_saveModify()))
+        .then((int onValue) {
       if (onValue == 1) {
         _editableState = false;
         setState(() {});
@@ -162,17 +165,19 @@ class _PersonalDataState extends State<PersonalData> {
                               )),
                           new GestureDetector(
                             onTap: () async {
-                              File imageFile = await ImagePicker.pickImage();
+                              File imageFile = await ImagePicker.pickImage(
+                                  source: ImageSource.gallery);
                               int random = new Random().nextInt(100000);
                               StorageReference ref = FirebaseStorage.instance
                                   .ref()
                                   .child(
                                       "custom-portraits/portrait_$random.jpg");
-                              StorageUploadTask uploadTask = ref.put(imageFile);
-                              Uri downloadUrl =
-                                  (await uploadTask.future).downloadUrl;
+                              StorageUploadTask uploadTask =
+                                  ref.putFile(imageFile);
+                              String url = await uploadTask.lastSnapshot.ref
+                                  .getDownloadURL();
                               setState(() {
-                                _newPortrait = downloadUrl.toString();
+                                _newPortrait = url;
                               });
                             },
                             child: new Container(

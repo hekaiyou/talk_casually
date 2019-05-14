@@ -6,6 +6,7 @@ import 'dart:math';
 
 class AddSession extends StatefulWidget {
   AddSession(this.myPhone, this.myName, this.myPortrait);
+
   final String myPhone;
   final String myName;
   final String myPortrait;
@@ -16,6 +17,7 @@ class AddSession extends StatefulWidget {
 
 class _AddSessionState extends State<AddSession> {
   _AddSessionState(this._myPhone, this._myPortrait);
+
   final String _myPhone;
   final String _myPortrait;
 
@@ -31,9 +33,12 @@ class _AddSessionState extends State<AddSession> {
 
   void _handleAppend() {
     showDialog<int>(
-        context: context,
-        barrierDismissible: false,
-        child: new ShowAwait(_addSession())).then((int onValue) {
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return ShowAwait(_addSession());
+      },
+    ).then((int onValue) {
       if (onValue == 1 || onValue == 2) {
         Navigator.of(context).pop(null);
       } else if (onValue == 0) {

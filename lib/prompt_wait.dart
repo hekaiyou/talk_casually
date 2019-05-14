@@ -43,7 +43,7 @@ class _ShowAwaitState extends State<ShowAwait> {
   }
 }
 
-String ReadableTime(String timestamp) {
+String readableTime(String timestamp) {
   List<String> timeList = timestamp.split(" ");
   List<String> times = timeList[1].split(":");
   String time;

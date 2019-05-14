@@ -4,10 +4,10 @@ description: A new Flutter project.
 dependencies:
   flutter:
     sdk: flutter
-  image_picker: ^0.1.1
-  firebase_database: ^0.0.14
-  firebase_storage: ^0.0.6
-  path_provider: ^0.2.1+1
+  image_picker: ^0.4.12+1
+  firebase_database: ^3.0.0
+  firebase_storage: ^3.0.0
+  path_provider: ^1.1.0
 
 dev_dependencies:
   flutter_test:

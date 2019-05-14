@@ -5,6 +5,7 @@ import 'dart:async';
 
 class ModifyPassword extends StatefulWidget {
   ModifyPassword(this.myPhone);
+
   final String myPhone;
 
   @override
@@ -13,7 +14,7 @@ class ModifyPassword extends StatefulWidget {
 
 class _ModifyPasswordState extends State<ModifyPassword> {
   static final GlobalKey<ScaffoldState> _scaffoldKey =
-  new GlobalKey<ScaffoldState>();
+      new GlobalKey<ScaffoldState>();
   final TextEditingController _passwordController = new TextEditingController();
   final TextEditingController _confirmController = new TextEditingController();
   bool _correctPassword = true;
@@ -33,7 +34,9 @@ class _ModifyPasswordState extends State<ModifyPassword> {
     showDialog<int>(
         context: context,
         barrierDismissible: false,
-        child: new ShowAwait(_saveModify())).then((int onValue) {
+        builder: (BuildContext context) {
+          return ShowAwait(_saveModify());
+        }).then((int onValue) {
       if (onValue == 1) {
         _scaffoldKey.currentState.showSnackBar(new SnackBar(
           content: new Text("密码修改成功！"),

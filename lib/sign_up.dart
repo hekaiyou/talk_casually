@@ -53,15 +53,15 @@ class SignUpState extends State<SignUp> {
     showDialog<int>(
         context: context,
         barrierDismissible: false,
-        child: new ShowAwait(_userLogUp(
-            _usernameController.text, _passwordController.text,
-            email: _emailController.text,
-            phone: _phoneController.text))).then((int onValue) {
+        builder: (BuildContext context) {
+          return new ShowAwait(_userLogUp(
+              _usernameController.text, _passwordController.text,
+              email: _emailController.text, phone: _phoneController.text));
+        }).then((int onValue) {
       if (onValue == 0) {
         showMessage(context, "这个号码已经被注册！");
       } else if (onValue == 1) {
-        Navigator
-            .of(context)
+        Navigator.of(context)
             .pop([_phoneController.text, _passwordController.text]);
       }
     });

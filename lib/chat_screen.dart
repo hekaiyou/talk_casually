@@ -19,6 +19,7 @@ class ChatScreen extends StatefulWidget {
     this.shePortrait,
     this.myPortrait,
   });
+
   final String messages;
   final String myName;
   final String sheName;
@@ -33,6 +34,7 @@ class ChatScreen extends StatefulWidget {
 
 class ChatScreenState extends State<ChatScreen> {
   ChatScreenState(this._messages);
+
   final String _messages;
 
   static final GlobalKey<ScaffoldState> _scaffoldKey =
@@ -94,7 +96,8 @@ class ChatScreenState extends State<ChatScreen> {
                 child: new IconButton(
                     icon: new Icon(Icons.photo_camera),
                     onPressed: () async {
-                      File imageFile = await ImagePicker.pickImage();
+                      File imageFile = await ImagePicker.pickImage(
+                          source: ImageSource.gallery);
                       int random = new Random().nextInt(100000);
                       _scaffoldKey.currentState.showSnackBar(new SnackBar(
                         content: new Text("上传原图中〜请稍候！"),
@@ -102,10 +105,10 @@ class ChatScreenState extends State<ChatScreen> {
                       StorageReference ref = FirebaseStorage.instance
                           .ref()
                           .child("sessions/$_messages/image_$random.jpg");
-                      StorageUploadTask uploadTask = ref.put(imageFile);
-                      Uri downloadUrl = (await uploadTask.future).downloadUrl;
-                      _sendMessage(
-                          text: "[图片]", imageUrl: downloadUrl.toString());
+                      StorageUploadTask uploadTask = ref.putFile(imageFile);
+                      String url =
+                          await uploadTask.lastSnapshot.ref.getDownloadURL();
+                      _sendMessage(text: "[图片]", imageUrl: url);
                     }),
               ),
               new Flexible(
@@ -175,7 +178,7 @@ class ChatScreenState extends State<ChatScreen> {
                     padding: new EdgeInsets.all(8.0),
                     reverse: true,
                     itemBuilder: (_, DataSnapshot snapshot,
-                        Animation<double> animation) {
+                        Animation<double> animation, int i) {
                       return new ChatMessage(
                         snapshot: snapshot,
                         animation: animation,
@@ -205,6 +208,7 @@ class ChatMessage extends StatelessWidget {
       this.myName,
       this.shePortrait,
       this.myPortrait});
+
   final DataSnapshot snapshot;
   final Animation animation;
   final String myName;
